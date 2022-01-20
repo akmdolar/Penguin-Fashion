@@ -79,3 +79,38 @@ body {
   line-height: 42px;
   color: #fabe4c;
 }
+
+/************************************** Quick View **************************************/
+/************************************** Quick View **************************************/
+.quick-view {
+  margin: 105px 0px 85px 0px !important;
+}
+.image-group {
+  width: 50%;
+}
+
+.icon-with-text-group {
+  width: 50%;
+}
+
+.icon-img img {
+  width: 78px;
+  height: 82px;
+}
+
+.icon-info h3 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #363958;
+}
+
+.icon-info p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e3e3e;
+  width: 276px;
+}
