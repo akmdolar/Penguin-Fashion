@@ -20,6 +20,11 @@ body {
   background-color: #fffbf0;
 }
 
+.header-logo img {
+  width: 291.11px;
+  height: 39.27px;
+}
+
 .banner-content h1 {
   font-family: Bebas Neue;
   font-size: 80px;
@@ -113,4 +118,24 @@ body {
   line-height: 26px;
   color: #3e3e3e;
   width: 276px;
+}
+
+@media only screen and (max-width: 480px) {
+  .header-logo img {
+    width: 192.75px;
+    height: 26px;
+  }
+  .banner-content h1 {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .image-group {
+    width: 100%;
+  }
+
+  .icon-with-text-group {
+    width: 100%;
+  }
 }
